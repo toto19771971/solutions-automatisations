@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.secret_key = "merguim"
 
 EMAIL = "solutions.automatisations@gmail.com"
-PASSWORD = "MOT_DE_PASSE_APPLICATION"
+PASSWORD = "huijdrrbcuhofbme"
 
 @app.route("/")
 def index():
