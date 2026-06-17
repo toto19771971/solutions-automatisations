@@ -1,0 +1,23 @@
+
+body{
+background:linear-gradient(180deg,#EAF4FF,#DFF7FF);
+font-family:Arial,sans-serif;
+min-height:100vh;
+}
+.hero{
+padding:120px 20px;
+background:linear-gradient(135deg,#2563EB,#06B6D4,#8B5CF6);
+color:white;
+text-align:center;
+}
+.feature-card,.project-card,.contact-card{
+background:white;
+border:none;
+border-radius:24px;
+box-shadow:0 20px 40px rgba(37,99,235,.08);
+transition:.3s;
+}
+.feature-card:hover,.project-card:hover{
+transform:translateY(-10px);
+box-shadow:0 30px 60px rgba(37,99,235,.15);
+}
